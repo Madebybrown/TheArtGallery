@@ -17,12 +17,14 @@ li {
     display: inline;
     float: right;
     text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    padding-right: 10px;
 }
 
 a {
     display: block;
     padding: 5px;
-    background-color: red;
     text-decoration: none;
     color: #E1EEDF;
     text-transform: uppercase;
@@ -32,7 +34,6 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
 }
 
 /* Grid */
