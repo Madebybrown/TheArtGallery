@@ -135,3 +135,32 @@ p {
     text-decoration: none;
     color: #B6D5CA;
 }
+
+/* Footer */
+
+.footer {
+    width: 100%;
+    height: 200px;
+    padding: 20px 80px;
+    margin: 0;
+    text-align: center;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks > li {
+    display: inline-block;
+    padding: 0.5% 2%;
+    float: none;
+}
+
+.social-networks > li > a {
+    margin: 0;
+}
+
+.social-networks i {
+    font-size: 150%;
+    color: #E1EEDF;
+}
