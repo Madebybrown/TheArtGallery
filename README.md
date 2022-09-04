@@ -1,2 +1,3 @@
 - [CSS GRID](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout)
 - [CSS BASIC STRUCTURE](http://thenewcode.com/441/HTML5-CSS-Boilerplate)
+- [featured content images fit](https://www.geeksforgeeks.org/how-to-create-a-div-that-contains-multiple-fixed-size-images/)

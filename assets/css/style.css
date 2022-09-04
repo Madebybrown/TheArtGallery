@@ -144,15 +144,13 @@ p {
 }
 
 /* Featured Content */
-.images {
+#images {
     display: flex;
     flex-wrap: wrap;
-    margin: 0 50px;
-    padding: 30px;
 }
 
 .images-cell {
-    max-width: 31.333%;
+    max-width: 50%;
     padding: 0 10px;
     height: 100%;
 }
@@ -160,4 +158,9 @@ p {
 .images-cell img {
     width: 100%;
     height: 100%;
+    padding-top: 10px;
+}
+
+.images-cell img:hover {
+    transform: scale(1.02);
 }
