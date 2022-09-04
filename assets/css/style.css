@@ -134,5 +134,11 @@ p {
 }
 
 .learn-more {
-    
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.learn-more:hover {
+    text-decoration: none;
+    color: #572641;
 }
