@@ -128,6 +128,7 @@ p {
 .learn-more {
     font-weight: bold;
     margin: 20px 0;
+    display: contents;
 }
 
 .learn-more:hover {
