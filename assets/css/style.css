@@ -11,6 +11,8 @@
 body {
     min-height: 100%;
     font-family: 'Open Sans', PT Sans;
+    overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 li {
@@ -139,4 +141,23 @@ p {
 .learn-more:hover {
     text-decoration: none;
     color: #B6D5CA;
+}
+
+/* Featured Content */
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 50px;
+    padding: 30px;
+}
+
+.images-cell {
+    max-width: 31.333%;
+    padding: 0 10px;
+    height: 100%;
+}
+
+.images-cell img {
+    width: 100%;
+    height: 100%;
 }
