@@ -82,14 +82,6 @@ p {
 
 .main-content {
     grid-column-start: 1;
-    grid-column-end: 3;
-    grid-row-start: 2;
-    grid-row-end: 4;
-    background-color: #E1EEDF;
-}
-
-.featured-content {
-    grid-column-start: 3;
     grid-column-end: 4;
     grid-row-start: 2;
     grid-row-end: 4;
@@ -124,7 +116,7 @@ p {
 
 .main-content-heading {
     margin: auto;
-    width: 67%;
+    width: 100%;
     padding: 10px;
     text-align: center;
 
