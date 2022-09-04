@@ -93,7 +93,7 @@ p {
     grid-column-end: 4;
     grid-row-start: 2;
     grid-row-end: 4;
-    background-color: #B6D5CA;
+    background-color: #E1EEDF;
 }
 
 .footer-social {
@@ -145,12 +145,12 @@ p {
 
 /* Featured Content */
 #images {
-    display: flex;
-    flex-wrap: wrap;
+    display: inline-grid;
+    justify-items: center;
 }
 
 .images-cell {
-    max-width: 50%;
+    max-width: 100%;
     padding: 0 10px;
     height: 100%;
 }
@@ -163,4 +163,22 @@ p {
 
 .images-cell img:hover {
     transform: scale(1.02);
+}
+
+#images h2 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 2em;
+    color: #1C2A31;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+#images p {
+    text-transform: uppercase;
+    font-style: italic;
+    text-align: center;
+    font-size: 0.8em;
+    color: #1C2A31;
+    font-weight: bold;
 }
