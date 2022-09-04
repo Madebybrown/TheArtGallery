@@ -33,6 +33,7 @@ a {
 
 a:hover {
     text-decoration: underline;
+    color: #B6D5CA;
 }
 
 ul {
@@ -93,4 +94,11 @@ ul {
 
 #logo:hover {
     color: #B6D5CA;
+}
+
+/* Main Content */
+.main-content {
+    background: url(../images/8pics.jpg) no-repeat center center;
+    background-size: cover;
+    
 }
