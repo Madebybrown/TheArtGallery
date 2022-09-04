@@ -13,9 +13,22 @@ body {
     font-family: 'Open Sans', PT Sans;
 }
 
-body a {
+li {
+    display: inline;
+    float: right;
+    text-align: center;
+}
+
+a {
+    display: block;
+    padding: 5px;
+    background-color: red;
     text-decoration: none;
     color: #E1EEDF;
+}
+
+ul {
+    list-style-type: none;
 }
 
 /* Grid */
@@ -61,6 +74,7 @@ body a {
 }
 
 /* Header-nav */
+
 .header-nav > h1 {
     text-transform: uppercase;
     font-size: 1.8em;
