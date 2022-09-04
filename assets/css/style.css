@@ -42,6 +42,21 @@ ul {
     padding: 0;
 }
 
+h2 {
+    color: #1C2A31;
+    text-transform: uppercase;
+}
+
+h3 {
+    color: #1C2A31;
+    text-transform: uppercase;
+}
+
+p {
+    color: #1C2A31;
+    font-style: italic;
+}
+
 /* Grid */
 .wrapper {
     width: 100vw;
