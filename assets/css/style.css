@@ -15,6 +15,7 @@ body {
 
 body a {
     text-decoration: none;
+    color: #E1EEDF;
 }
 
 /* Grid */
@@ -57,4 +58,13 @@ body a {
     grid-row-start: 4;
     grid-row-end: 5;
     background-color: #1C2A31;
+}
+
+/* Header-nav */
+.header-nav > a {
+    display: inline-block;
+    float: right;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1rem;
 }
