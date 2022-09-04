@@ -10,7 +10,7 @@
 
 body {
     min-height: 100%;
-    background: whitesmoke;
+    background: #E1EEDF;
     color: black;
 }
 
@@ -22,4 +22,12 @@ body {
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
     grid-template-rows: 30px 1fr 1fr 70px;
+}
+
+.header-nav {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-color: #1C2A31;
 }
