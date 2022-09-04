@@ -45,16 +45,21 @@ ul {
 h2 {
     color: #E1EEDF;
     text-transform: uppercase;
+    font-size: 4em;
 }
 
 h3 {
     color: #E1EEDF;
     text-transform: uppercase;
+    font-size: 1.5em;
 }
 
 p {
     color: #E1EEDF;
     font-style: italic;
+    color: #572641;
+    font-weight: bold;
+    font-size: 1.1em;
 }
 
 /* Grid */
@@ -126,4 +131,8 @@ p {
     position: absolute;
     top: 50%;
     transform: translate(0, -50%);
+}
+
+.learn-more {
+    
 }
