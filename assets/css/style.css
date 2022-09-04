@@ -18,7 +18,7 @@ li {
     float: right;
     text-align: center;
     font-weight: bold;
-    font-size: 1.5em;
+    font-size: 1.6em;
     padding-right: 10px;
 }
 
@@ -29,6 +29,10 @@ a {
     color: #E1EEDF;
     text-transform: uppercase;
     margin-left: 10px;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 ul {
@@ -83,4 +87,10 @@ ul {
 
 #logo {
     float: left;
+    font-size: 0.9em;
+    text-decoration: none;
+}
+
+#logo:hover {
+    color: #B6D5CA;
 }
