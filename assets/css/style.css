@@ -25,6 +25,7 @@ a {
     background-color: red;
     text-decoration: none;
     color: #E1EEDF;
+    text-transform: uppercase;
 }
 
 ul {
@@ -78,6 +79,6 @@ ul {
 
 /* Header-nav */
 
-.navbar {
-
+#logo {
+    float: left;
 }
