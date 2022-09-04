@@ -45,3 +45,11 @@ body {
     grid-row-end: 4;
     background-color: #B6D5CA;
 }
+
+.footer-social {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    background-color: #1C2A31;
+}
